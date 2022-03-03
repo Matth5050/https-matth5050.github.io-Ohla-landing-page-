@@ -1,0 +1,189 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(239, 44, 1);
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(239, 44, 1);
+    justify-content: space-between;
+    width: 100%;
+}
+
+.introduction, .ohlatext, .discover {
+    font-family: 'Shrikhand', cursive;
+}
+
+.links {
+    display: flex;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    transition-duration: 0.2s;
+    font-size: 120%;
+}
+
+li:hover {
+    color: black;
+}
+
+#mylogo {
+    margin-left: 30px;
+    border-width: 0px;
+    border-style: none;
+}
+
+.container1 {
+    margin-left: 30px;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.introduction {
+    font-size: 150%;
+}
+
+.deals {
+    background-color: white;
+    color: black;
+    border: 2px solid black; 
+    border-radius: 4px;
+    padding: 15px 25px;
+    font-size: larger;
+    transition-duration: 0.4s;
+}
+
+.deals:hover {
+    box-shadow: 8px 8px 6px rgb(0, 0, .24);
+}
+
+#chickenbowl {
+    margin-right: 30px;
+    box-shadow: 8px 8px 5px black;
+    border-left: rgb(0, 0, .24);
+    border-width: 1px;
+    border-style: solid;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover {
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.imgcontainer {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+#infopic  {
+    width: 220px;
+    height: 195px;
+    box-shadow: 0 0 5px black;
+}
+
+.info   {
+    max-width:min-content;
+    font-size: larger;
+    text-align: center;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    font-size: 40px;
+    padding: 40px 100px;
+}
+
+.mission {
+    text-align: start;
+}
+
+.mission-end{
+    text-align: end;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 150px
+}
+
+.sign-up-intro {
+    display: flex;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding: 12px;
+    gap: 150px;
+    color: white;
+    background-color: rgb(239, 44, 1);
+}
+
+.button1 {
+    align-self: center;
+    padding-top: 36px;   
+}
+
+.sign-up {
+    padding: 10px 18px;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.sign-up:hover {
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(239, 44, 1);;
+    padding: 0px;
+}
+
+.copyright {
+    margin: 0px;
+    font-size: 15px;
+}
