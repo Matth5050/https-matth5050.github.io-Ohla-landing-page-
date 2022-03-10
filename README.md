@@ -13,4 +13,4 @@ On this landing page I used/implemented the following items:
 5. italics/bold in different texts
 6. shadows
 7. hovering effects
-For anyone who views this project, comments and critiques are always welcome at matthew.f.herbert@gmail.com
+
